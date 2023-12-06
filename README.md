@@ -1,3 +1,7 @@
+This is a themed version of Material as a template to create a simple static academic personal homepage.
+
+This uses markdown files to provide the contents of the different webpages.
+
 ![preview](./images/preview.png)
 
 ![cv](./images/cv_preview.png)
