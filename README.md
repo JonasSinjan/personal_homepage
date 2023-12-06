@@ -1,6 +1,6 @@
-![preview](./preview.png)
+![preview](./images/preview.png)
 
-![cv](./cv_preview.png)
+![cv](./images/cv_preview.png)
 
 To setup 
 
@@ -12,13 +12,19 @@ conda env create --name personal_homepage --file=environment.yml
 mkdocs serve
 ```
 
-To deploy to a website
+To deploy to your Github User Page (free yourusername.github.io website domain)
+
+You need to follow: https://www.mkdocs.org/user-guide/deploying-your-docs/
+
+![deploy](./images/deploy_user_github.png)
 
 The master config file: `mkdocs.yml`
 
 - this is what `mkdocs` uses to build the page
 - if there is an error in that file, the pages will fail to build
 - the file structure within `docs` folder is essential, that is where mkdocs looks for the contents to build the page
+
+Change your name in the mkdocs.yml!
 
 Social links (bottom right corner on page)
 
