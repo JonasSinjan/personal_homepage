@@ -5,7 +5,7 @@
 To setup 
 
 ```bash
-git clone url
+git clone https://github.com/JonasSinjan/personal_homepage.git
 
 conda env create --name personal_homepage --file=environment.yml
 
