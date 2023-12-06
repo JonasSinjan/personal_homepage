@@ -1,3 +1,5 @@
+![preview](./preview.png)
+
 To setup 
 
 ```bash
