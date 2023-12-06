@@ -1,0 +1,96 @@
+site_name: Your Name
+site_url: https://example.com
+site_description: >-
+  A simple static homepage for an academic researcher
+
+copyright: Copyright (c) 2023 Jonas Sinjan
+
+repo_name:
+repo_url:
+
+# Page tree
+nav:
+  - Home: index.md
+  - About: 
+    - Hobbies: hobbies.md
+  - CV: 
+    - cv/index.md
+    - Education: cv/education.md 
+    - Experience: cv/experience.md
+    - Publications: cv/publications.md
+    - Talks: cv/talks.md
+  - Projects: 
+    - projects/index.md
+    - Project 1: projects/project_1.md
+    - Project 2: projects/project_2.md
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - toc.integrate
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to system preference
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Additional configuration
+extra:
+  annotate:
+    json: [.s2]
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/JonasSinjan
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/jonassinjan
+    - icon: simple/googlescholar
+      link: https://scholar.google.com/citations?user=AXjToZAAAAAJ&hl=en
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0000-0002-5387-636X
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
