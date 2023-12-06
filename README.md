@@ -1,12 +1,18 @@
 ![preview](./preview.png)
 
+![cv](./cv_preview.png)
+
 To setup 
 
 ```bash
 git clone url
 
 conda env create --name personal_homepage --file=environment.yml
+
+mkdocs serve
 ```
+
+To deploy to a website
 
 The master config file: `mkdocs.yml`
 
